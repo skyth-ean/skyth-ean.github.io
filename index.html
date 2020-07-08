@@ -8,11 +8,13 @@
 			.mainparagraph {background-color:rgb(32, 214, 211);}
 			.center { display: block; margin-left: auto; margin-right: auto; width: 50%;}
 			.gothic { font-family: "Malgun Gothic", serif; }
-			.textcenter {text-align: center;}
-			#blogtitle {font-family: fantasy, serif; font-size: 3em; background-color:rgb(92, 88, 88);}
+			#firstword {text-align: center;z-index:2;}
+			#blogtitle {font-family: fantasy; serif; font-size: 3em; background-color:rgb(92, 88, 88);}
 			#cat-img {float:left; width:200px; clear:both; margin-right: 30px;margin-bottom: 15px;border:2px solid white;}
-			#cat-fax {border:5px solid black;margin:auto; padding:35px; text-align:center; background-color:rgb(23, 111, 138); width:70%;  overflow:auto;}
+			#cat-fax {border:5px solid black;margin:auto; padding:35px; text-align:center; background-color:rgb(23, 111, 138); width:60%;  overflow:auto;}
         		#fax-title {margin-left:150px;}
+          #sidebar {text-align: right; position:absolute; right:10px; top:215px;background-color: rgb(17, 143, 137); width: 80px; height: 200px; overflow:auto; padding: 5px;}
+          #tux-img {z-index:1;position:absolute;width:150px;top:280px; left:60px;}
 	</style>
     </head>
 
@@ -20,15 +22,16 @@
     
         <h1 id="blogtitle">Skyth Blog</h1>
         
-        <img src="https://skythean.files.wordpress.com/2020/07/lonely-landscape-on-the-sea-stock-photo.jpg?w=1024" alt = "lone tree" class="center"></img>
+        <img src="https://skythean.files.wordpress.com/2020/07/lonely-landscape-on-the-sea-stock-photo.jpg?w=1024" alt="lone tree" class="center">
   
-	<p class="textcenter">Github FTW</p>
-	
-	<p class="textcenter" class="gothic">일단 만들어봄 ㅋ 깃헙 짱 아무거나 올려야지 워드프레스는 용도변경했음 ㅋㅋ</p>
-	
-	<a href="pages/zine1.html"><p class="textcenter">#1 : I've created my website!</p></a>
-	
-	<p id="fax-title"> 일단 재밌는 고양이 얘기  vim으로 편집함 ^-^</p>
+
+  	<img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt = "tux linux penguin" id="tux-img">
+
+	<p id="firstword">Github FTW<br>일단 만들어봄 ㅋ 깃헙 짱 아무거나 올려야지 워드프레스는 용도변경했음 ㅋㅋ<br>일단 재밌는 고양이 얘기  vim으로 편집함 ^-^</p>
+
+	<div id="sidebar"><a href="pages/zine1.html"><p>#1 : I've created my website!</p></a>
+      <p>사이드바 사이드바 사이드바</p>
+  </div>
 
 	<div id="cat-fax">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/1024px-Felis_catus-cat_on_snow.jpg" alt = "cat poser" id="cat-img">
@@ -43,6 +46,4 @@
 	
 	</div>
 
-	<a href="https://skythean.wordpress.com/%ec%9d%b4-%ed%8e%98%ec%9d%b4%ec%a7%80%eb%a5%bc-%eb%a7%8c%eb%93%a0-%ec%9d%b4%ec%9c%a0%ec%99%80-%ed%9b%84%ea%b8%b0/"><p style="position: absolute; bottom: 0; left: 0; width: 100%; text-align: center; padding-bottom: 10px; padding-top: 10px; padding-left: 10px;clear:both;">Dev Diary...</p></a>
-  
 </html>
